@@ -1,2 +1,8 @@
-*.tif
+# Raster data and ZIP archives are kept locally, outside version control.
+*.[tT][iI][fF]
+*.[tT][iI][fF][fF]
+*.[zZ][iI][pP]
+
+# Local secrets and macOS metadata.
 .env
+.DS_Store

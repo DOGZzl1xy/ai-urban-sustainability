@@ -1,0 +1,17 @@
+<PAMDataset>
+  <Metadata>
+    <MDI key="channel_threshold_cells">200</MDI>
+    <MDI key="water_level_m">5.0</MDI>
+  </Metadata>
+  <PAMRasterBand band="1">
+    <Description>Inundation depth (m)</Description>
+    <Metadata>
+      <MDI key="STATISTICS_APPROXIMATE">YES</MDI>
+      <MDI key="STATISTICS_MAXIMUM">5</MDI>
+      <MDI key="STATISTICS_MEAN">0.63661001640453</MDI>
+      <MDI key="STATISTICS_MINIMUM">0</MDI>
+      <MDI key="STATISTICS_STDDEV">1.4586928758722</MDI>
+      <MDI key="STATISTICS_VALID_PERCENT">80.65</MDI>
+    </Metadata>
+  </PAMRasterBand>
+</PAMDataset>
