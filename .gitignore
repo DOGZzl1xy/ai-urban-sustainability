@@ -2,10 +2,12 @@
 *.[tT][iI][fF]
 *.[tT][iI][fF][fF]
 *.[zZ][iI][pP]
+!lab6-machine-learning/testimg.tif
 
-# Local secrets and macOS metadata.
+# Local secrets, macOS metadata, and Jupyter autosaves.
 .env
 .DS_Store
+.ipynb_checkpoints/
 
 # GDAL sidecar files and local scratch output.
 *.aux.xml

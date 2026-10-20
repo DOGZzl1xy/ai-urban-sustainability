@@ -69,9 +69,8 @@ New to the setup process? See the guides for [installing Anaconda](lab1-basics-p
 | 06 | [Machine learning](#lab-06--machine-learning-fundamentals) | scikit-learn and land-cover classification |
 | 07 | [Deep neural networks](#lab-07--deep-neural-networks) | Regression and convolutional neural networks |
 | 08 | [Object detection](#lab-08--mask-r-cnn-for-object-detection) | Mask R-CNN, LabelMe, and fine-tuning |
-| 09 | [Building extraction](#lab-09--u-net-for-building-extraction) | Dataset preparation, U-Net training, and prediction |
-| 10 | [Street-level imagery](#lab-10--street-level-image-segmentation) | PSPNet, semantic segmentation, and mapping |
-| 11 | [Large language models](#lab-11--large-language-models) | Text and image analysis with the OpenAI API |
+| 09 | [Image segmentation](#lab-09--image-segmentation) | U-Net building extraction and street-level semantic segmentation |
+| 10 | [Large language models](#lab-10--large-language-models) | Text and image analysis with the OpenAI API |
 
 ### Lab 01 · Python programming fundamentals
 
@@ -117,28 +116,27 @@ These exercises run in Google Colab.
 
 ### Lab 08 · Mask R-CNN for object detection
 
-- Become familiar with the Mask R-CNN object-detection architecture
-- Create custom labeled data with LabelMe
-- Fine-tune Mask R-CNN for a new detection task
+- [Become familiar with the Mask R-CNN object-detection architecture](https://colab.research.google.com/drive/1aviPNZeG6OSjDra7ALeyL67rwW-o09FS?usp=sharing)
+- [Create custom labeled data with LabelMe](https://github.com/wkentaro/labelme)
+- [Explore YOLO object detection](https://colab.research.google.com/drive/1XYByQYgE57ms2I_z9-zpVpu2V9eGIrQB?usp=sharing)
 
-### Lab 09 · U-Net for building extraction
+### Lab 09 · Image segmentation
 
-- [Prepare training datasets for the convolutional neural network](lab8-unet/1.data-preparation.ipynb)
-- [Train the model and generate building predictions](lab8-unet/2.model-trainning-prediction.ipynb)
+Use U-Net for building extraction, then explore semantic segmentation of street-level imagery.
 
-> **Repository note:** The Lab 09 materials are currently stored in the `lab8-unet` directory.
+- [Pretrained model for street-level image segmentation](https://colab.research.google.com/drive/1Jen8Uj4QUiyZEoQ2FlCiL4wDUl2102p7?usp=sharing)
 
-### Lab 10 · Street-level image segmentation
+- [Prepare training datasets for the convolutional neural network](lab9-image-segmentation/1.data-preparation.ipynb) — [Open in Colab](https://colab.research.google.com/drive/1xa72fcEw0E6ml946e3ieYLeBmjQ0jsUd)
+- [Train the model and generate building predictions](lab9-image-segmentation/2.model-trainning-prediction.ipynb) — [Open in Colab](https://colab.research.google.com/drive/1Xo0_Xte7IRZN1aIz7GT1RTmqbVtWl02k)
 
-- Prepare street-level imagery for analysis
-- Adapt PSPNet for semantic segmentation
-- Create maps from segmented imagery and associated metadata
 
-### Lab 11 · Large language models
+### Lab 10 · Understand Transformer
+Read the paper of [Attention is All You Need](https://papers.neurips.cc/paper/7181-attention-is-all-you-need.pdf) and the following two illustration and annotation. 
+- [The Illustrated Transformer](https://jalammar.github.io/illustrated-transformer/)
+- [Annotated-transformer](https://nlp.seas.harvard.edu/annotated-transformer/)
+<!-- - [Use the OpenAI API for text and image analysis](lab10-llms/openai-llm.ipynb) -->
 
-- Explore large language models and their urban applications
-- [Use the OpenAI API for text and image analysis](lab11-llms/openai-llm.ipynb)
-
+- [OpenAI API](lab10-llms/OpenAI_API_Simple_Urban_Demos.ipynb)
 ---
 
 ## Repository structure
@@ -150,11 +148,13 @@ ai-urban-sustainability/
 ├── lab3-raster-data-manipulation/
 ├── lab4-urban-flood-mapping/
 ├── lab6-machine-learning/
-├── lab8-unet/
-├── lab11-llms/
+├── lab9-image-segmentation/
+├── lab10-llms/
 ├── env.yml
 └── README.md
 ```
+
+Labs 05, 07, and 08 use externally hosted notebooks linked above. Lab 09 combines building extraction and street-level image segmentation; the large-language-model material is now Lab 10.
 
 ## Using these materials
 
