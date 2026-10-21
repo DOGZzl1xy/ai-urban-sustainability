@@ -12,3 +12,9 @@
 # GDAL sidecar files and local scratch output.
 *.aux.xml
 tmp/
+
+# Final project raw downloads stay local.
+final_project/data/
+final_project/.venv/
+__pycache__/
+final_project/_archive/*/data/
