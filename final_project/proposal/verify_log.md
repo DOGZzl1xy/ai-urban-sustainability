@@ -182,3 +182,23 @@ PDF: 2 pages, every text span 10.5 pt or larger.
 - **Vegetation:** "and point classes in 2025, flown as leaves emerged" added (`results/citywide/veg2025_fix.md`).
 - **Remaining work, item 1:** citywide LiDAR (five years) and imagery (nine years) are now processed.
 - Rebuilt with xelatex: still 2 pages, no overfull boxes.
+
+## 12. Fifth revision (2026-10-28, after the round-2 test and stages 6–7)
+
+Rewritten to the course's five required parts (title and name; background and research question; data sources; proposed
+AI methods; expected outcomes), with a progress column because most of the work is done. Still 2 pages, no text
+smaller than 10.5 pt, no overfull boxes.
+
+- **Name line:** course name and "revised 28 October 2026".
+- **Scope:** adds about 527,000 building units in 46 ZIP codes (`results/citywide/stage6/meta.json`: 526,928 in the mask).
+- **Data table:** imagery years by area; permits 2014–2025 with 257,160 records (`results/citywide/stage7/rq3_summary.json`);
+  ACS 5-year 2015–19 / 2019–23 and TIGER block groups; SEPTA GTFS. References [6] (ACS) and [7] (GTFS) added.
+- **Methods:** the final model as trained (amendment 2, config S): mean + max pooling and the share predicted to rise
+  ≥ 2.5 m, 10,559 pairs, six periods, 37 ZIP codes, oversampling, EMA, stop rule (`results/citywide/M4_plan.md`). Label
+  precision 95.5% (pilot, 42/44) and 95.7% (citywide spot-check, 44/46; `spotcheck_scores.json`).
+- **Outcomes:** round-2 test unit AP 0.683 / 0.150, 250 m r 0.961 / 0.907 / 0.416 (`m4/round2_test.json`, `round2_grid.csv`);
+  RQ2 rates on units covered in both periods 1.62 → 1.20 and 1.06 → 0.71, top-10% cells 94% / 90%
+  (`stage7/rq2_summary.json`); RQ3 61% of 2018–20 new-construction permits by 2025, 54.5% / 48.7% within one year for
+  2018 / 2019 permits ("about half"), unpermitted 3.6–9.1% (`stage7/rq3_*.csv`).
+- **Figure:** the old Figure 1 (19146 pilot map and one permitted pop-up) is replaced by aggregated 250 m maps of the
+  whole study area (`scripts/make_fig2.py` → `fig2.png`); no building is shown.
