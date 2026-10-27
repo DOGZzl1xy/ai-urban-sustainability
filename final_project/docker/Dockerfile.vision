@@ -1,0 +1,6 @@
+# Vehicle detection head for the pop-up change filter.
+# Base: the local Colab runtime image (torch 2.11 + CUDA 12.8, transformers, cv2); adds ultralytics for YOLO-OBB.
+FROM colab-lab9:latest
+RUN pip install --no-cache-dir "ultralytics>=8.3"
+ENTRYPOINT []
+WORKDIR /work

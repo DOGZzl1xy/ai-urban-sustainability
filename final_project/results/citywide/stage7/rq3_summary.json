@@ -1,0 +1,209 @@
+{
+ "permits": 257160,
+ "permits_linked_to_main_units": 200171,
+ "link_by_opa_share": 0.9177344731731465,
+ "calibration_permits_with_unit_count": 3307,
+ "m2_per_home": 122.67103651065912,
+ "permit_to_construction": [
+  {
+   "permit": "new construction",
+   "issued": "2018-2020",
+   "outcome": "new by 2022 (LiDAR)",
+   "units": 2754,
+   "detected": 1607,
+   "share": 0.5835148874364561,
+   "ci_low": 0.5649990626070472,
+   "ci_high": 0.6017980442318661
+  },
+  {
+   "permit": "new construction",
+   "issued": "2018-2020",
+   "outcome": "new by 2025 (LiDAR)",
+   "units": 2647,
+   "detected": 1603,
+   "share": 0.6055912353607857,
+   "ci_low": 0.5868326870212587,
+   "ci_high": 0.6240437380355986
+  },
+  {
+   "permit": "new construction",
+   "issued": "2018-2020",
+   "outcome": "grew any growth by 2025",
+   "units": 2647,
+   "detected": 2058,
+   "share": 0.7774839440876464,
+   "ci_low": 0.7612427112066538,
+   "ci_high": 0.7929209174311345
+  },
+  {
+   "permit": "addition (any)",
+   "issued": "2018-2020",
+   "outcome": "popup by 2022 (LiDAR)",
+   "units": 9574,
+   "detected": 672,
+   "share": 0.07019009818257782,
+   "ci_low": 0.06524327337047134,
+   "ci_high": 0.07548171001200596
+  },
+  {
+   "permit": "addition (any)",
+   "issued": "2018-2020",
+   "outcome": "popup by 2025 (LiDAR)",
+   "units": 9329,
+   "detected": 690,
+   "share": 0.07396291135169901,
+   "ci_low": 0.06882567827126793,
+   "ci_high": 0.07945087664208239
+  },
+  {
+   "permit": "addition (any)",
+   "issued": "2018-2020",
+   "outcome": "grew any growth by 2025",
+   "units": 9329,
+   "detected": 764,
+   "share": 0.08189516561260585,
+   "ci_low": 0.07650140882037236,
+   "ci_high": 0.08763312443903708
+  },
+  {
+   "permit": "upward addition",
+   "issued": "2018-2020",
+   "outcome": "popup by 2022 (LiDAR)",
+   "units": 497,
+   "detected": 322,
+   "share": 0.647887323943662,
+   "ci_low": 0.6049067815942812,
+   "ci_high": 0.6885991891557524
+  },
+  {
+   "permit": "upward addition",
+   "issued": "2018-2020",
+   "outcome": "popup by 2025 (LiDAR)",
+   "units": 481,
+   "detected": 320,
+   "share": 0.6652806652806653,
+   "ci_low": 0.6219458627052158,
+   "ci_high": 0.7059962940734105
+  },
+  {
+   "permit": "upward addition",
+   "issued": "2018-2020",
+   "outcome": "grew any growth by 2025",
+   "units": 481,
+   "detected": 326,
+   "share": 0.6777546777546778,
+   "ci_low": 0.634723148810181,
+   "ci_high": 0.717969359423436
+  }
+ ],
+ "unpermitted": [
+  {
+   "period": "2018\u20132022",
+   "event": "new",
+   "rule": "related permit on the unit",
+   "events": 2173,
+   "without_permit": 78,
+   "share": 0.035895075931891396,
+   "ci_low": 0.02885642842138106,
+   "ci_high": 0.04457178978246068
+  },
+  {
+   "period": "2018\u20132022",
+   "event": "new",
+   "rule": "related permit within 10 m",
+   "events": 2173,
+   "without_permit": 45,
+   "share": 0.020708697653014266,
+   "ci_low": 0.01551263818917935,
+   "ci_high": 0.027596424041163907
+  },
+  {
+   "period": "2018\u20132022",
+   "event": "popup",
+   "rule": "related permit on the unit",
+   "events": 1422,
+   "without_permit": 63,
+   "share": 0.04430379746835443,
+   "ci_low": 0.034780502378680314,
+   "ci_high": 0.05628262833654078
+  },
+  {
+   "period": "2018\u20132022",
+   "event": "popup",
+   "rule": "related permit within 10 m",
+   "events": 1422,
+   "without_permit": 17,
+   "share": 0.011954992967651195,
+   "ci_low": 0.0074773430075871375,
+   "ci_high": 0.019062491431245335
+  },
+  {
+   "period": "2022\u20132025",
+   "event": "new",
+   "rule": "related permit on the unit",
+   "events": 1427,
+   "without_permit": 97,
+   "share": 0.06797477224947442,
+   "ci_low": 0.05604110381865883,
+   "ci_high": 0.08222828952299406
+  },
+  {
+   "period": "2022\u20132025",
+   "event": "new",
+   "rule": "related permit within 10 m",
+   "events": 1427,
+   "without_permit": 49,
+   "share": 0.03433777154870357,
+   "ci_low": 0.02607016484883231,
+   "ci_high": 0.04510584792574734
+  },
+  {
+   "period": "2022\u20132025",
+   "event": "popup",
+   "rule": "related permit on the unit",
+   "events": 793,
+   "without_permit": 72,
+   "share": 0.09079445145018916,
+   "ci_low": 0.0727204953771185,
+   "ci_high": 0.11281399479006152
+  },
+  {
+   "period": "2022\u20132025",
+   "event": "popup",
+   "rule": "related permit within 10 m",
+   "events": 793,
+   "without_permit": 38,
+   "share": 0.04791929382093316,
+   "ci_low": 0.035108780631742956,
+   "ci_high": 0.06508879941427874
+  }
+ ],
+ "floor_area": [
+  {
+   "period": "2018\u20132022",
+   "covered_share": 0.6356231390489209,
+   "new_units_detected": 2173,
+   "new_floor_area_m2": 813726.9999999998,
+   "popup_units_detected": 1422,
+   "popup_added_floor_area_m2": 225599.35611083562,
+   "new_floor_area_m2_scaled_to_all_units": 1280203.551459084,
+   "popup_floor_area_m2_scaled": 354926.279821088,
+   "m2_per_home_from_permits": 122.67103651065912,
+   "homes_new_construction_scaled": 10436.070223861234,
+   "homes_popups_upper_bound_scaled": 2893.3176886481087
+  },
+  {
+   "period": "2022\u20132025",
+   "covered_share": 0.969852352549323,
+   "new_units_detected": 1427,
+   "new_floor_area_m2": 804321.4999999998,
+   "popup_units_detected": 793,
+   "popup_added_floor_area_m2": 156951.04138354928,
+   "new_floor_area_m2_scaled_to_all_units": 829323.6572410078,
+   "popup_floor_area_m2_scaled": 161829.83004680328,
+   "m2_per_home_from_permits": 122.67103651065912,
+   "homes_new_construction_scaled": 6760.54984803969,
+   "homes_popups_upper_bound_scaled": 1319.2179233990705
+  }
+ ]
+}

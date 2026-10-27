@@ -1,0 +1,63 @@
+{
+  "vehicles_detected": 19715,
+  "flag_counts": {
+    "v1": 1207,
+    "v2": 982,
+    "v3": 980
+  },
+  "reviewed": {
+    "v1": {
+      "precision_sample_still_flagged": 50,
+      "precision_on_judged": 0.851063829787234,
+      "precision_ci": [
+        0.7446808510638298,
+        0.9574468085106383
+      ],
+      "false_pos_remaining_all_reviewed": 49,
+      "true_changes_kept_all_reviewed": 47,
+      "true_changes_total_reviewed": 47,
+      "confirmed_unpermitted_kept": 4
+    },
+    "v2": {
+      "precision_sample_still_flagged": 41,
+      "precision_on_judged": 0.9736842105263158,
+      "precision_ci": [
+        0.9210526315789473,
+        1.0
+      ],
+      "false_pos_remaining_all_reviewed": 7,
+      "true_changes_kept_all_reviewed": 43,
+      "true_changes_total_reviewed": 47,
+      "confirmed_unpermitted_kept": 3
+    },
+    "v3": {
+      "precision_sample_still_flagged": 40,
+      "precision_on_judged": 1.0,
+      "precision_ci": [
+        1.0,
+        1.0
+      ],
+      "false_pos_remaining_all_reviewed": 5,
+      "true_changes_kept_all_reviewed": 43,
+      "true_changes_total_reviewed": 47,
+      "confirmed_unpermitted_kept": 3
+    }
+  },
+  "recall": {
+    "v1": {
+      "new": 0.9664268585131894,
+      "upward": 0.8709677419354839,
+      "rear": 0.4270833333333333
+    },
+    "v2": {
+      "new": 0.9280575539568345,
+      "upward": 0.8709677419354839,
+      "rear": 0.3958333333333333
+    },
+    "v3": {
+      "new": 0.9280575539568345,
+      "upward": 0.8709677419354839,
+      "rear": 0.3958333333333333
+    }
+  }
+}

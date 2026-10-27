@@ -1,0 +1,154 @@
+{
+  "tag": "v3b_s1_FINAL",
+  "calibration_from_validation": {
+    "grew": {
+      "precision": 0.8181818181818182,
+      "recall": 0.7468879668049793,
+      "factor": 1.0954545454545455,
+      "val_flags": 220,
+      "val_truth": 241
+    },
+    "new": {
+      "precision": 0.7202072538860104,
+      "recall": 0.9084967320261438,
+      "factor": 0.7927461139896373,
+      "val_flags": 193,
+      "val_truth": 153
+    },
+    "popup": {
+      "precision": 0.48333333333333334,
+      "recall": 0.32954545454545453,
+      "factor": 1.4666666666666668,
+      "val_flags": 60,
+      "val_truth": 88
+    }
+  },
+  "metrics": [
+    {
+      "tag": "v3b_s1_FINAL",
+      "scale": "100 m",
+      "class": "grew",
+      "cells": 686,
+      "lidar_total": 369,
+      "flagged_total": 315,
+      "estimate_total": 345.0681818181818,
+      "calibration_factor": 1.0954545454545455,
+      "r_raw": 0.7162753647674633,
+      "r_calibrated": 0.7162753647674627,
+      "mae": 0.4053074476543865,
+      "mean_error": -0.034886032335011925
+    },
+    {
+      "tag": "v3b_s1_FINAL",
+      "scale": "100 m",
+      "class": "new",
+      "cells": 686,
+      "lidar_total": 163,
+      "flagged_total": 221,
+      "estimate_total": 175.19689119170982,
+      "calibration_factor": 0.7927461139896373,
+      "r_raw": 0.7552578071640544,
+      "r_calibrated": 0.7552578071640496,
+      "mae": 0.2019667970815269,
+      "mean_error": 0.01777972476925634
+    },
+    {
+      "tag": "v3b_s1_FINAL",
+      "scale": "100 m",
+      "class": "popup",
+      "cells": 686,
+      "lidar_total": 206,
+      "flagged_total": 250,
+      "estimate_total": 366.6666666666667,
+      "calibration_factor": 1.4666666666666668,
+      "r_raw": 0.44182373376564454,
+      "r_calibrated": 0.4418237337656443,
+      "mae": 0.5356656948493683,
+      "mean_error": 0.23420796890184647
+    },
+    {
+      "tag": "v3b_s1_FINAL",
+      "scale": "250 m",
+      "class": "grew",
+      "cells": 133,
+      "lidar_total": 369,
+      "flagged_total": 315,
+      "estimate_total": 345.0681818181818,
+      "calibration_factor": 1.0954545454545455,
+      "r_raw": 0.8275077028412338,
+      "r_calibrated": 0.8275077028412343,
+      "mae": 1.304818865345181,
+      "mean_error": -0.1799384825700615
+    },
+    {
+      "tag": "v3b_s1_FINAL",
+      "scale": "250 m",
+      "class": "new",
+      "cells": 133,
+      "lidar_total": 163,
+      "flagged_total": 221,
+      "estimate_total": 175.19689119170982,
+      "calibration_factor": 0.7927461139896373,
+      "r_raw": 0.868411387505324,
+      "r_calibrated": 0.8684113875053224,
+      "mae": 0.7860843819393042,
+      "mean_error": 0.09170594880984857
+    },
+    {
+      "tag": "v3b_s1_FINAL",
+      "scale": "250 m",
+      "class": "popup",
+      "cells": 133,
+      "lidar_total": 206,
+      "flagged_total": 250,
+      "estimate_total": 366.6666666666667,
+      "calibration_factor": 1.4666666666666668,
+      "r_raw": 0.6122502074900491,
+      "r_calibrated": 0.6122502074900495,
+      "mae": 1.8385964912280706,
+      "mean_error": 1.2080200501253133
+    },
+    {
+      "tag": "v3b_s1_FINAL",
+      "scale": "block group",
+      "class": "grew",
+      "cells": 79,
+      "lidar_total": 369,
+      "flagged_total": 315,
+      "estimate_total": 345.06818181818187,
+      "calibration_factor": 1.0954545454545455,
+      "r_raw": 0.8751254532404354,
+      "r_calibrated": 0.8751254532404354,
+      "mae": 1.9990218642117379,
+      "mean_error": -0.30293440736478716
+    },
+    {
+      "tag": "v3b_s1_FINAL",
+      "scale": "block group",
+      "class": "new",
+      "cells": 79,
+      "lidar_total": 163,
+      "flagged_total": 221,
+      "estimate_total": 175.19689119170982,
+      "calibration_factor": 0.7927461139896373,
+      "r_raw": 0.8752042376150807,
+      "r_calibrated": 0.8752042376150806,
+      "mae": 1.3181609496950222,
+      "mean_error": 0.15439102774316266
+    },
+    {
+      "tag": "v3b_s1_FINAL",
+      "scale": "block group",
+      "class": "popup",
+      "cells": 79,
+      "lidar_total": 206,
+      "flagged_total": 250,
+      "estimate_total": 366.6666666666667,
+      "calibration_factor": 1.4666666666666668,
+      "r_raw": 0.7386584439674353,
+      "r_calibrated": 0.738658443967435,
+      "mae": 2.9974683544303806,
+      "mean_error": 2.0337552742616034
+    }
+  ]
+}

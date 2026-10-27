@@ -1,0 +1,18 @@
+# Files to copy back to the local project after cloud training (paths relative to final_project/).
+# <tag> = m4b_s<seed> (recipe A) or m4c_s<seed> (fallback), one block per seed that was run.
+# Example: rsync -av --files-from=<this list with tags filled in> cloud:WORK_DIR/final_project/ ./final_project/
+
+# Best checkpoints (about 1.27 GB each). The resumable _last.pt (1.8 GB) is not needed once a run has finished.
+data/interim/models/unitcls_<tag>.pt            # best validation pop-up AP (used to choose the final M4)
+data/interim/models/unitcls_<tag>_grew.pt       # best validation grew AP
+
+# Logs and validation results (small)
+results/citywide/m4/unitcls_<tag>_train.csv     # one row per validation (every 500 steps)
+results/citywide/m4/unitcls_<tag>_steps.csv     # training loss every 50 steps
+results/citywide/m4/unitcls_<tag>_val.json      # thresholds and validation report at the best pop-up step
+results/citywide/m4/unitcls_<tag>_val_grew.json # same at the best grew step
+results/citywide/m4/DEAD_<tag>                  # only if the guard stopped the run (holds the step)
+
+# Once per cloud session
+results/citywide/m4/queue_cloud.log             # queue output (start / end / guard events)
+<WORK_DIR>/smoke_test/                          # smoke-test logs from setup_cloud.sh

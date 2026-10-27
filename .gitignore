@@ -1,6 +1,21 @@
-*.tif
+# Raster data and ZIP archives are kept locally, outside version control.
+*.[tT][iI][fF]
+*.[tT][iI][fF][fF]
+*.[zZ][iI][pP]
 !lab6-machine-learning/testimg.tif
 
-# Local macOS metadata and Jupyter autosaves
+# Local secrets, macOS metadata, and Jupyter autosaves.
+.env
 .DS_Store
 .ipynb_checkpoints/
+
+# GDAL sidecar files and local scratch output.
+*.aux.xml
+tmp/
+
+# Final project raw downloads stay local.
+final_project/data/
+final_project/.venv/
+__pycache__/
+# review pages show street addresses: local only
+final_project/results/**/review*.html

@@ -1,0 +1,75 @@
+{
+  "2018": {
+    "first": "2018-04-14",
+    "last": "2018-04-22",
+    "tile_days": [
+      "2018-04-14",
+      "2018-04-22"
+    ],
+    "format": "LAS 1.4, point format 6, CRS NAD83 / Pennsylvania South (ftUS) + NAVD88 height - Geoid12B (ftUS)",
+    "tiles": 20,
+    "density_pts_m2_median": 43.10958548853817,
+    "class_share": {
+      "1": 0.35,
+      "2": 0.1501,
+      "3": 0.0209,
+      "4": 0.0172,
+      "5": 0.0477,
+      "6": 0.3782,
+      "7": 0.0043,
+      "9": 0.0012,
+      "10": 0.0,
+      "12": 0.0202,
+      "17": 0.0103
+    },
+    "truncated": []
+  },
+  "2022": {
+    "first": "2022-03-29",
+    "last": "2022-03-30",
+    "tile_days": [
+      "2022-03-29",
+      "2022-03-30"
+    ],
+    "format": "LAS 1.4, point format 6, CRS NAD83(2011) / Pennsylvania South (ftUS) + NAVD88 height (ftUS) - US Geoid Model of 2018",
+    "tiles": 14,
+    "density_pts_m2_median": 38.60345730235309,
+    "class_share": {
+      "1": 0.7695,
+      "2": 0.2083,
+      "7": 0.0003,
+      "8": 0.0151,
+      "9": 0.0004,
+      "17": 0.0064,
+      "18": 0.0,
+      "20": 0.0
+    },
+    "truncated": []
+  },
+  "2025": {
+    "first": "2025-04-18",
+    "last": "2025-04-18",
+    "tile_days": [
+      "2025-04-18"
+    ],
+    "format": "LAS 1.4, point format 6, CRS NAD83(2011) / Pennsylvania South (ftUS)",
+    "tiles": 17,
+    "density_pts_m2_median": 29.645631720482818,
+    "class_share": {
+      "1": 0.1704,
+      "2": 0.2587,
+      "3": 0.0323,
+      "4": 0.0305,
+      "5": 0.1473,
+      "6": 0.3382,
+      "7": 0.0107,
+      "9": 0.0039,
+      "17": 0.0079,
+      "18": 0.0,
+      "20": 0.0001
+    },
+    "truncated": [
+      "26822E227832N.las: 7,088,269 of 11,993,334 points"
+    ]
+  }
+}

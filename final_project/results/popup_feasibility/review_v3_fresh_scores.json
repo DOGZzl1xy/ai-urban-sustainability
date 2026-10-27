@@ -1,0 +1,32 @@
+{
+  "n_items": 50,
+  "n_judged": 44,
+  "n_unsure": 6,
+  "precision": 0.9545454545454546,
+  "ci95": [
+    0.8863636363636364,
+    1.0
+  ],
+  "by_detected_type": {
+    "new": {
+      "n": 26,
+      "real": 26
+    },
+    "popup": {
+      "n": 12,
+      "real": 11
+    },
+    "rear": {
+      "n": 5,
+      "real": 4
+    },
+    "demolition": {
+      "n": 3,
+      "real": 3
+    }
+  },
+  "false_positive_notes": [
+    "从图像上看不出来",
+    "几乎没有变化"
+  ]
+}

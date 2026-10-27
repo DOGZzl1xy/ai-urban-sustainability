@@ -1,0 +1,57 @@
+{
+ "units_in_mask": 526928,
+ "units_main": 520903,
+ "rates_study_area": [
+  {
+   "period": "2018\u20132022",
+   "covered_units": 331098,
+   "new_events": 2173,
+   "new_per_1000_per_year": 1.640752888872781,
+   "popup_events": 1422,
+   "popup_per_1000_per_year": 1.0737002337676458,
+   "demo_events": 849,
+   "demo_per_1000_per_year": 0.6410488737473498
+  },
+  {
+   "period": "2022\u20132025",
+   "covered_units": 505199,
+   "new_events": 1427,
+   "new_per_1000_per_year": 0.9415431674778981,
+   "popup_events": 793,
+   "popup_per_1000_per_year": 0.5232261610441298,
+   "demo_events": 801,
+   "demo_per_1000_per_year": 0.5285046090748399
+  }
+ ],
+ "rates_units_covered_in_both_periods": [
+  {
+   "period": "2018\u20132022",
+   "covered_units": 322921,
+   "new_events": 2095,
+   "new_per_1000_per_year": 1.6219137188352568,
+   "popup_events": 1371,
+   "popup_per_1000_per_year": 1.0614051114668912,
+   "demo_events": 807,
+   "demo_per_1000_per_year": 0.6247658095942971
+  },
+  {
+   "period": "2022\u20132025",
+   "covered_units": 322921,
+   "new_events": 1165,
+   "new_per_1000_per_year": 1.2025645075214475,
+   "popup_events": 686,
+   "popup_per_1000_per_year": 0.7081195297508266,
+   "demo_events": 558,
+   "demo_per_1000_per_year": 0.5759922705553371
+  }
+ ],
+ "concentration_top10pct_cells": {
+  "new": 0.9380555555555555,
+  "popup": 0.9020316027088036
+ },
+ "cells_250m_with_any": {
+  "new": 0.155373541821792,
+  "popup": 0.1538843385455448
+ },
+ "block_groups_in_models": 945
+}

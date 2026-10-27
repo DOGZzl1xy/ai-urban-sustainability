@@ -1,0 +1,154 @@
+{
+  "tag": "v3r_s0",
+  "calibration_from_validation": {
+    "grew": {
+      "precision": 0.8390243902439024,
+      "recall": 0.7136929460580913,
+      "factor": 1.175609756097561,
+      "val_flags": 205,
+      "val_truth": 241
+    },
+    "new": {
+      "precision": 0.4,
+      "recall": 0.013071895424836602,
+      "factor": 30.6,
+      "val_flags": 5,
+      "val_truth": 153
+    },
+    "popup": {
+      "precision": 0.15845070422535212,
+      "recall": 0.5113636363636364,
+      "factor": 0.3098591549295775,
+      "val_flags": 284,
+      "val_truth": 88
+    }
+  },
+  "metrics": [
+    {
+      "tag": "v3r_s0",
+      "scale": "100 m",
+      "class": "grew",
+      "cells": 693,
+      "lidar_total": 915,
+      "flagged_total": 764,
+      "estimate_total": 898.1658536585364,
+      "calibration_factor": 1.175609756097561,
+      "r_raw": 0.916996364172624,
+      "r_calibrated": 0.9169963641726231,
+      "mae": 0.5911167423362546,
+      "mean_error": -0.02429169746242925
+    },
+    {
+      "tag": "v3r_s0",
+      "scale": "100 m",
+      "class": "new",
+      "cells": 693,
+      "lidar_total": 447,
+      "flagged_total": 23,
+      "estimate_total": 703.8000000000001,
+      "calibration_factor": 30.6,
+      "r_raw": 0.019537263997269395,
+      "r_calibrated": 0.019537263997269325,
+      "mae": 1.6057720057720057,
+      "mean_error": 0.37056277056277065
+    },
+    {
+      "tag": "v3r_s0",
+      "scale": "100 m",
+      "class": "popup",
+      "cells": 693,
+      "lidar_total": 468,
+      "flagged_total": 1099,
+      "estimate_total": 340.5352112676057,
+      "calibration_factor": 0.3098591549295775,
+      "r_raw": 0.5208379050190273,
+      "r_calibrated": 0.5208379050190275,
+      "mae": 0.5935410442452697,
+      "mean_error": -0.18393187407271908
+    },
+    {
+      "tag": "v3r_s0",
+      "scale": "250 m",
+      "class": "grew",
+      "cells": 133,
+      "lidar_total": 915,
+      "flagged_total": 764,
+      "estimate_total": 898.1658536585365,
+      "calibration_factor": 1.175609756097561,
+      "r_raw": 0.963704793567045,
+      "r_calibrated": 0.9637047935670444,
+      "mae": 2.0169081239684576,
+      "mean_error": -0.12657252888318396
+    },
+    {
+      "tag": "v3r_s0",
+      "scale": "250 m",
+      "class": "new",
+      "cells": 133,
+      "lidar_total": 447,
+      "flagged_total": 23,
+      "estimate_total": 703.8,
+      "calibration_factor": 30.6,
+      "r_raw": 0.008274495068542472,
+      "r_calibrated": 0.008274495068542482,
+      "mae": 7.66015037593985,
+      "mean_error": 1.930827067669173
+    },
+    {
+      "tag": "v3r_s0",
+      "scale": "250 m",
+      "class": "popup",
+      "cells": 133,
+      "lidar_total": 468,
+      "flagged_total": 1099,
+      "estimate_total": 340.53521126760563,
+      "calibration_factor": 0.3098591549295775,
+      "r_raw": 0.6347328802965688,
+      "r_calibrated": 0.6347328802965689,
+      "mae": 2.3073175897490206,
+      "mean_error": -0.9583818701683785
+    },
+    {
+      "tag": "v3r_s0",
+      "scale": "block group",
+      "class": "grew",
+      "cells": 79,
+      "lidar_total": 915,
+      "flagged_total": 764,
+      "estimate_total": 898.1658536585365,
+      "calibration_factor": 1.175609756097561,
+      "r_raw": 0.972786833746892,
+      "r_calibrated": 0.972786833746892,
+      "mae": 3.14720592775548,
+      "mean_error": -0.2130904600185246
+    },
+    {
+      "tag": "v3r_s0",
+      "scale": "block group",
+      "class": "new",
+      "cells": 79,
+      "lidar_total": 447,
+      "flagged_total": 23,
+      "estimate_total": 703.8,
+      "calibration_factor": 30.6,
+      "r_raw": 0.1893041942457544,
+      "r_calibrated": 0.1893041942457544,
+      "mae": 11.10886075949367,
+      "mean_error": 3.250632911392405
+    },
+    {
+      "tag": "v3r_s0",
+      "scale": "block group",
+      "class": "popup",
+      "cells": 79,
+      "lidar_total": 468,
+      "flagged_total": 1099,
+      "estimate_total": 340.53521126760563,
+      "calibration_factor": 0.3098591549295775,
+      "r_raw": 0.6056132624151683,
+      "r_calibrated": 0.6056132624151684,
+      "mae": 3.6206097343555004,
+      "mean_error": -1.6134783383847389
+    }
+  ]
+}

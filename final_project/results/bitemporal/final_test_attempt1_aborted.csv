@@ -1,0 +1,2 @@
+model,time,status
+unitcls_v3b_s1,2026-10-23T04:07:20.590126,aborted: crashed in score_units before any prediction (missing unit-id file for a 2022-only patch); no outputs produced

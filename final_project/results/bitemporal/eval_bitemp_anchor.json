@@ -1,0 +1,314 @@
+{
+  "model": "bitemp_anchor",
+  "tuned_rules": {
+    "bldg_h": 2.5,
+    "veg_major": 0.5,
+    "new_before": 0.2,
+    "new_after": 0.5,
+    "up_h": 1.5,
+    "up_share": 0.2,
+    "rear_m2": 10.0
+  },
+  "tuning": [
+    {
+      "up_h": 1.5,
+      "up_share": 0.2,
+      "val_popups": 44,
+      "recall": 0.0,
+      "precision": 0.0,
+      "f1": 0.0
+    },
+    {
+      "up_h": 1.5,
+      "up_share": 0.3,
+      "val_popups": 44,
+      "recall": 0.0,
+      "precision": 0.0,
+      "f1": 0.0
+    },
+    {
+      "up_h": 1.5,
+      "up_share": 0.4,
+      "val_popups": 44,
+      "recall": 0.0,
+      "precision": 0.0,
+      "f1": 0.0
+    },
+    {
+      "up_h": 1.5,
+      "up_share": 0.5,
+      "val_popups": 44,
+      "recall": 0.0,
+      "precision": 0.0,
+      "f1": 0.0
+    },
+    {
+      "up_h": 2.0,
+      "up_share": 0.2,
+      "val_popups": 44,
+      "recall": 0.0,
+      "precision": 0.0,
+      "f1": 0.0
+    },
+    {
+      "up_h": 2.0,
+      "up_share": 0.3,
+      "val_popups": 44,
+      "recall": 0.0,
+      "precision": 0.0,
+      "f1": 0.0
+    },
+    {
+      "up_h": 2.0,
+      "up_share": 0.4,
+      "val_popups": 44,
+      "recall": 0.0,
+      "precision": 0.0,
+      "f1": 0.0
+    },
+    {
+      "up_h": 2.0,
+      "up_share": 0.5,
+      "val_popups": 44,
+      "recall": 0.0,
+      "precision": 0.0,
+      "f1": 0.0
+    },
+    {
+      "up_h": 2.5,
+      "up_share": 0.2,
+      "val_popups": 44,
+      "recall": 0.0,
+      "precision": 0.0,
+      "f1": 0.0
+    },
+    {
+      "up_h": 2.5,
+      "up_share": 0.3,
+      "val_popups": 44,
+      "recall": 0.0,
+      "precision": 0.0,
+      "f1": 0.0
+    },
+    {
+      "up_h": 2.5,
+      "up_share": 0.4,
+      "val_popups": 44,
+      "recall": 0.0,
+      "precision": 0.0,
+      "f1": 0.0
+    },
+    {
+      "up_h": 2.5,
+      "up_share": 0.5,
+      "val_popups": 44,
+      "recall": 0.0,
+      "precision": 0.0,
+      "f1": 0.0
+    },
+    {
+      "up_h": 3.0,
+      "up_share": 0.2,
+      "val_popups": 44,
+      "recall": 0.0,
+      "precision": 0.0,
+      "f1": 0.0
+    },
+    {
+      "up_h": 3.0,
+      "up_share": 0.3,
+      "val_popups": 44,
+      "recall": 0.0,
+      "precision": 0.0,
+      "f1": 0.0
+    },
+    {
+      "up_h": 3.0,
+      "up_share": 0.4,
+      "val_popups": 44,
+      "recall": 0.0,
+      "precision": 0.0,
+      "f1": 0.0
+    },
+    {
+      "up_h": 3.0,
+      "up_share": 0.5,
+      "val_popups": 44,
+      "recall": 0.0,
+      "precision": 0.0,
+      "f1": 0.0
+    }
+  ],
+  "tests": [
+    {
+      "zip": "19146",
+      "y0": 2018,
+      "y1": 2022,
+      "buildings": 15824,
+      "bldg_mae": 0.3196991980075836,
+      "bldg_mae_ci": [
+        0.3060455024242401,
+        0.33440545201301575
+      ],
+      "tuned": {
+        "units": 17088,
+        "new": {
+          "lidar": 402,
+          "model": 0,
+          "recall": 0.0,
+          "precision": 0.0,
+          "f1": 0.0,
+          "recall_ci": [
+            0.0,
+            0.0
+          ],
+          "precision_ci": [
+            NaN,
+            NaN
+          ]
+        },
+        "popup": {
+          "lidar": 372,
+          "model": 0,
+          "recall": 0.0,
+          "precision": 0.0,
+          "f1": 0.0,
+          "recall_ci": [
+            0.0,
+            0.0
+          ],
+          "precision_ci": [
+            NaN,
+            NaN
+          ]
+        },
+        "popup_rise_median_lidar_vs_model": [
+          3.8132435083389282,
+          0.07053768634796143
+        ]
+      },
+      "default": {
+        "units": 17088,
+        "new": {
+          "lidar": 402,
+          "model": 0,
+          "recall": 0.0,
+          "precision": 0.0,
+          "f1": 0.0,
+          "recall_ci": [
+            0.0,
+            0.0
+          ],
+          "precision_ci": [
+            NaN,
+            NaN
+          ]
+        },
+        "popup": {
+          "lidar": 372,
+          "model": 0,
+          "recall": 0.0,
+          "precision": 0.0,
+          "f1": 0.0,
+          "recall_ci": [
+            0.0,
+            0.0
+          ],
+          "precision_ci": [
+            NaN,
+            NaN
+          ]
+        },
+        "popup_rise_median_lidar_vs_model": [
+          3.8132435083389282,
+          0.07053768634796143
+        ]
+      }
+    },
+    {
+      "zip": "19147",
+      "y0": 2018,
+      "y1": 2022,
+      "buildings": 13835,
+      "bldg_mae": 0.25606417655944824,
+      "bldg_mae_ci": [
+        0.24341313540935516,
+        0.2698459327220917
+      ],
+      "tuned": {
+        "units": 13690,
+        "new": {
+          "lidar": 63,
+          "model": 1,
+          "recall": 0.015873015873015872,
+          "precision": 1.0,
+          "f1": 0.03125,
+          "recall_ci": [
+            0.0,
+            0.047619047619047616
+          ],
+          "precision_ci": [
+            1.0,
+            1.0
+          ]
+        },
+        "popup": {
+          "lidar": 129,
+          "model": 0,
+          "recall": 0.0,
+          "precision": 0.0,
+          "f1": 0.0,
+          "recall_ci": [
+            0.0,
+            0.0
+          ],
+          "precision_ci": [
+            NaN,
+            NaN
+          ]
+        },
+        "popup_rise_median_lidar_vs_model": [
+          3.2562341690063477,
+          0.06984138488769531
+        ]
+      },
+      "default": {
+        "units": 13690,
+        "new": {
+          "lidar": 63,
+          "model": 1,
+          "recall": 0.015873015873015872,
+          "precision": 1.0,
+          "f1": 0.03125,
+          "recall_ci": [
+            0.0,
+            0.047619047619047616
+          ],
+          "precision_ci": [
+            1.0,
+            1.0
+          ]
+        },
+        "popup": {
+          "lidar": 129,
+          "model": 0,
+          "recall": 0.0,
+          "precision": 0.0,
+          "f1": 0.0,
+          "recall_ci": [
+            0.0,
+            0.0
+          ],
+          "precision_ci": [
+            NaN,
+            NaN
+          ]
+        },
+        "popup_rise_median_lidar_vs_model": [
+          3.2562341690063477,
+          0.06984138488769531
+        ]
+      }
+    }
+  ]
+}

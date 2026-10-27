@@ -1,0 +1,38 @@
+{
+  "step500_best_grew/train": {
+    "units": 7740,
+    "grew": 137,
+    "popup": 46,
+    "ap_grew": 0.6560579052735623,
+    "ap_popup": 0.05163489880775411,
+    "logit_grew_mean": -1.0673824548721313,
+    "logit_grew_std": 0.9361775517463684
+  },
+  "step500_best_grew/val": {
+    "units": 5426,
+    "grew": 68,
+    "popup": 16,
+    "ap_grew": 0.7843014206395783,
+    "ap_popup": 0.03221460879083762,
+    "logit_grew_mean": -1.344107747077942,
+    "logit_grew_std": 1.0084506273269653
+  },
+  "step13500_last/train": {
+    "units": 7740,
+    "grew": 137,
+    "popup": 46,
+    "ap_grew": 0.10619884856477813,
+    "ap_popup": 0.006595311083136105,
+    "logit_grew_mean": -1.1356068849563599,
+    "logit_grew_std": 0.34423255920410156
+  },
+  "step13500_last/val": {
+    "units": 5426,
+    "grew": 68,
+    "popup": 16,
+    "ap_grew": 0.31794077489848477,
+    "ap_popup": 0.00421940885690837,
+    "logit_grew_mean": -1.1414175033569336,
+    "logit_grew_std": 0.32219186425209045
+  }
+}

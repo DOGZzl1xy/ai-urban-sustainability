@@ -1,0 +1,35 @@
+{
+ "base": "m4b_s0",
+ "candidates": [
+  "m4s_s0",
+  "m4s_s1"
+ ],
+ "val_units": 29353,
+ "val_popups": 117,
+ "blocks": 42,
+ "point": {
+  "m4b_s0": {
+   "ap_popup": 0.13099905913690493,
+   "ap_grew": 0.704888060479028,
+   "iter": 7500
+  },
+  "m4s_s0": {
+   "ap_popup": 0.42611986241409033,
+   "ap_grew": 0.7988698915886189,
+   "iter": 8000
+  },
+  "m4s_s1": {
+   "ap_popup": 0.33254973343896493,
+   "ap_grew": 0.8042882260459913,
+   "iter": 8000
+  }
+ },
+ "diff_mean_cand_minus_base": 0.2483357387896227,
+ "ci95": [
+  0.15340800614070188,
+  0.3140615350741217
+ ],
+ "bootstrap_n": 2000,
+ "adopt_config_S": true,
+ "final_m4": "m4s_s0"
+}

@@ -1,0 +1,3 @@
+iter,stage,loss,val_units,val_popups,val_ap_popup,val_ap_grew,sec,it_per_s,workers
+500,1,0.6819,29353,117,0.0124,0.2474,589,1.534,6
+1000,1,0.4641,29353,117,0.0246,0.0987,1117,1.765,3

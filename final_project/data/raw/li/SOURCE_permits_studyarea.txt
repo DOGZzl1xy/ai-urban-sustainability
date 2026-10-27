@@ -1,0 +1,1 @@
+https://phl.carto.com/api/v2/sql table=permits; issued 2014-01-01..2025-12-31; bbox [np.float64(-75.280307), np.float64(39.86747200000001), np.float64(-74.955749), np.float64(40.13793499999999)] (EPSG:4326, study area); types: building / zoning / demolition / administrative / site, Hansen BP_* and ZP_*; downloaded 2026-10-27
